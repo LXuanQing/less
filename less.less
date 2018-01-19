@@ -1,0 +1,13 @@
+// 定义变量
+@vc-time-select-prefix: vc-time-select-field;
+@width: 300px;
+// 使用变量class前缀
+.@{vc-time-select-prefix} {
+    display: flex;
+    .@{vc-time-select-prefix}-start,.@{vc-time-select-prefix}-end {
+        flex: 1;
+        width: @width;
+    }
+}
+// 使用变量值
+
